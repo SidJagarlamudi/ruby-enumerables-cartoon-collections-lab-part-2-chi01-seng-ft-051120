@@ -20,10 +20,12 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
 
   planeteer_calls.each do |element|
+    verdict = false
     if element.length > 4 
       verdict = true 
-    else verdict = false
+    
     end 
+    
   end 
   verdict 
 
